@@ -1,0 +1,145 @@
+/* thes is for evretheng */
+*{
+    margin: 0;
+}
+/* thes is for heder */
+.header{
+    height: 130px;
+    background:#202124;
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px;
+    border-color: #35383b;
+    border-style: solid;
+    min-width: 1000px;
+}
+/* thes is for logo */
+.logo{
+    margin: 30px;
+    width: 90px;
+cursor: pointer;
+}
+/* thes is for search */
+.search {
+    width: 700px;
+    height: 45px;
+    background: #303134;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 155px;
+    border: 1px;
+    border-radius: 25px;
+color: rgb(243, 237, 237);
+padding: 0 10px 0px 29px;
+font-size: 15px;
+}
+/* thes is the search icons */
+.icons-search{
+    position: absolute;
+    margin-left: 860px;
+    margin-top: -55px;
+    color: rgb(72, 137, 235);
+    cursor: pointer;
+}
+.icons-mic{
+    position: absolute;
+    margin-left: 830px;
+    margin-top: -55px;
+    color: rgb(72, 137, 235);
+    cursor: pointer;
+}
+/* thes is the menu */
+.menu{
+    margin-left: 150px;
+}
+ul{
+    display: inline;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-right: -15px;
+    cursor: pointer;
+}
+.tools{
+    margin-left: 125px;
+}
+button{
+    background: transparent;
+    color: gray;
+    border: 0px;
+    cursor: pointer;
+}
+/* thes is the par seting */
+.par{
+color: gray;
+position: absolute;
+right: 0;
+font-size: 20px;
+margin-top: -55px;
+cursor: pointer;
+}
+a{
+    margin-right: 20px;
+}
+/* thes is for body */
+.body{
+    height: 100%;
+    width: 100%;
+    background :#202124;
+    display: flex;
+    flex-flow:row wrap;
+    align-items: stretch;
+
+}
+.results{
+width: 500px;
+flex-grow: 1;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 50px;
+margin-left: 200px;
+}
+.about{
+    margin-top: -35px;
+    margin-bottom: 25px;
+}
+.title{
+    color: #8ab4f8;
+    cursor: pointer;
+}
+.content{
+margin-bottom: 35px;
+}
+/* thes is wiki */
+.wiki{
+    width: 100px;
+    border: 1px;
+    border-color: #35383b;
+flex-grow: 2;
+height: 200px;
+border-style: solid;
+border-radius: 10px;
+display: flex;
+flex-flow:row wrap;
+align-items: stretch;
+margin: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.border1{
+    display: flex;
+    margin: 25px;
+}
+.name{
+color: white;
+}
+.photo{
+    width: 100px !important;
+    right: 0px;
+position: absolute;
+margin-right: 25px;
+}
+p{
+    color: rgb(184, 180, 180);
+    font-size: 14px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
